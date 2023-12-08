@@ -43,22 +43,4 @@ class Form extends Component {
 
 export default Form
 
-// import React from 'react'
 
-// const Form = ({ name, number, handleChange, addContact }) => {
-//   return (
-//     <form className="form" onSubmit={addContact}>
-//       <label>
-//         Name
-//         <input type="text" name="name" value={name} onChange={handleChange} required />
-//       </label>
-//       <label>
-//         Number
-//         <input type="tel" name="number" value={number} onChange={handleChange} required />
-//       </label>
-//       <button className="btn" type="submit">Add contact</button>
-//     </form>
-//   )
-// }
-
-// export default Form
